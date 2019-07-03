@@ -7,7 +7,6 @@ const Result = (props) => {
 
     let content = null;
 
-
     if(!error && city) {
 
         const sunriseTime = new Date(sunrise * 1000).toLocaleTimeString();
